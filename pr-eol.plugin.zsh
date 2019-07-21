@@ -7,7 +7,7 @@ if command -v zpm >/dev/null; then
 fi
 
 if [[ "$CLICOLOR" = 1 ]]; then
-  pr_eol="%{$bg[cyan]%}%{$fg_bold[white]%}⏎%{$reset_color%}"
+  pr_eol="%{$c[blue]$c_bold%}⏎%{$c_reset%}"
 else
   pr_eol="⏎"
 fi
