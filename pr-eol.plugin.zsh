@@ -3,7 +3,7 @@
 DEPENDENCES_ZSH+=( zpm-zsh/colors )
 
 if (( $+functions[zpm] )); then
-  zpm zpm-zsh/colors
+  zpm zpm-zsh/colors,inline
 fi
 
 pr_eol="%{$c_reset$c[blue]$c_bold%}⏎%{$c_reset%}"
